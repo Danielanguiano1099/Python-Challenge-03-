@@ -38,15 +38,6 @@ with open(csvpath) as csvfile:
             Change = -int(row[1])
         
             
-    
-            
-
-
-    
-    
-
-
-    
     print("Total Months: " + str(int(len(Months) -1)))
     print(" ")
     print("Total: $" + str(int(Total)) )
