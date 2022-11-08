@@ -77,8 +77,8 @@ with open(csvpath) as csvfile:
     h = " \n"
     hg = "\n "
     i = "Greatest Decrease in Profits: " + str(days) + " ($" + str(decrease) +")"
-    txt = os.path.join("Analysis", "y")
-    with open( txt, "w") as file:
+    txt = os.path.join("Analysis")
+    with open( "Analysis/PYTHON_ANALYSIS", "w") as file:
         lines = ([aa,bb,ab,cc,bc,a,b,ba,c,d,dc,e,f,fe,g,h,hg,i])
         file.writelines(lines)
 
