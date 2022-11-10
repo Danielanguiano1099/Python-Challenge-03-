@@ -59,7 +59,7 @@ e = " --------------------" + "\n" + "\n" + " Winner: " + str(dinners) + "\n"+ "
 f =" Election Results"+ "\n"+"\n"+"------------------------"+"\n"+"\n"
 # write a with statement to add file to Analysis folder named: "PYTHON_ANALYSIS-PYPOLL"
 txt = os.path.join("Analysis")
-with open("Analysis/PYTHON_ANALYSIS-PYPOLL", "w") as file:
+with open("Analysis/PYTHON_ANALYSIS-PYPOLL.txt", "w") as file:
     # Now that we have variables, assign them to a list and cd ..
     # then use 'writelines' to write these results
     lines = ([f,a,b,c,d,e])
