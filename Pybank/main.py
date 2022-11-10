@@ -79,7 +79,7 @@ with open(csvpath) as csvfile:
     i = "Greatest Decrease in Profits: " + str(days) + " ($" + str(decrease) +")"
     
     # write a with statement to add file to Analysis folder named: "PYTHON_ANALYSIS"
-    with open( "Analysis/PYTHON_ANALYSIS", "w") as file:
+    with open( "Analysis/PYTHON_ANALYSIS.txt", "w") as file:
         # Now that we have variables, assign them to a list and 
         # then use 'writelines' to write these results
         lines = ([aa,bb,ab,cc,bc,a,b,ba,c,d,dc,e,f,fe,g,h,hg,i])
